@@ -36,7 +36,7 @@ public class Student {
     int currentCourseNumber;
     float avgExamScore;
 
-    public String toString(){
-        return universityId +" "+currentCourseNumber+" "+avgExamScore+" "+ fullName;
+    public String toString(){return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
+            this.fullName, this.universityId, this.currentCourseNumber, this.avgExamScore);
     }
 }

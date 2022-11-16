@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/Student.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/University.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/universityInfo.xlsx" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Junit.java" charset="UTF-8" />
   </component>
 </project>

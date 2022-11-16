@@ -1,14 +1,17 @@
 public enum StudyProfile {
-        TEACHER("Учитель"), ENGINEER("Инженер"), MEDICINE("Медицина");
-        private String transletion;
-        StudyProfile(String transletion){
-                this.transletion = transletion;
-        }
-        public String getTransletion(){
-                return  transletion;
+        PHYSICS("Физика"),
+        COMPUTER_SCIENCE("Информатика"),
+        MATHEMATICS("Математика"),
+        JURISPRUDENCE("Юриспруденция"),
+        MEDICINE("Медицина"),
+        LINGUISTICS("Лингвистика");
+        private final String profileName;
+
+        private StudyProfile(String profileName) {
+                this.profileName = profileName;
         }
 
-        public String toString(){
-              return transletion;
+        public String getProfileName() {
+                return this.profileName;
         }
 }
