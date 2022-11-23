@@ -1,4 +1,6 @@
-//package model;
+package Model;//package model;
+
+import Enums.StudyProfile;
 
 public class University {
 
@@ -24,36 +26,32 @@ public class University {
         return fullName;
     }
 
-    public University setFullName(String fullName) {
+    public void setFullName(String fullName) {
         this.fullName = fullName;
-        return this;
     }
 
     public String getShortName() {
         return shortName;
     }
 
-    public University setShortName(String shortName) {
+    public void setShortName(String shortName) {
         this.shortName = shortName;
-        return this;
     }
 
     public int getYearOfFoundation() {
         return yearOfFoundation;
     }
 
-    public University setYearOfFoundation(int yearOfFoundation) {
+    public void setYearOfFoundation(int yearOfFoundation) {
         this.yearOfFoundation = yearOfFoundation;
-        return this;
     }
 
     public StudyProfile getMainProfile() {
         return mainProfile;
     }
 
-    public University setMainProfile(StudyProfile mainProfile) {
+    public void setMainProfile(StudyProfile mainProfile) {
         this.mainProfile = mainProfile;
-        return this;
     }
 
     @Override

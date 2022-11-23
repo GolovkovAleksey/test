@@ -1,3 +1,10 @@
+import Comporator.StudentComparator;
+import Comporator.UniversityComparator;
+import Enums.StudentComparatorType;
+import Enums.UniversityComparatorType;
+import Model.Student;
+import Model.University;
+import Util.ComparatorUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,15 +18,19 @@ public class Main {
         ReadExcel ReadExcel = null;
         List<University> universities =
                 ReadExcel.readUniversities();
-        for(University university : universities) {
-            System.out.println(university);
-        }
+        UniversityComparator universityComparator =
+                ComparatorUtil.getUniversityComparator(UniversityComparatorType.YEAR);
+        universities.stream()
+                .sorted(universityComparator)
+                .forEach(System.out::println);
 
         List<Student> students =
                 ReadExcel.readStudents();
-        for(Student student : students) {
-            System.out.println(student);
-        }
+        StudentComparator studentComparator =
+                ComparatorUtil.getStudentComparator(StudentComparatorType.AVG_EXAM_SCORE);
+        students.stream()
+                .sorted(studentComparator)
+                .forEach(System.out::println);
     }
 
 }
