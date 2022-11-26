@@ -1,7 +1,9 @@
 package Model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Student {
-       public String getFullName() {
+    public String getFullName() {
         return fullName;
     }
 
@@ -33,9 +35,14 @@ public class Student {
         this.avgExamScore = avgExamScore;
     }
 
+    @SerializedName("studentFIO")
     String fullName;
+    @SerializedName("universityId")
     String universityId;
+
+    @SerializedName("course")
     int currentCourseNumber;
+    @SerializedName("avgScope")
     float avgExamScore;
 
     public String toString(){return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
