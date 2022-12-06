@@ -2,10 +2,12 @@ import Comporator.StudentComparator;
 import Comporator.UniversityComparator;
 import Enums.StudentComparatorType;
 import Enums.UniversityComparatorType;
+import Model.Statistics;
 import Model.Student;
 import Model.University;
 import Util.ComparatorUtil;
 import Util.JsonUtil;
+import Util.StatisticUtl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -60,5 +62,7 @@ public class Main {
             System.out.println(studentFromJson);
         });
 
+        List<Statistics> statisticsList = StatisticUtl.createStatistics(students, universities);
+        WriterExcel.writeStatisticsExcel(statisticsList, "statistics.xlsx");
     }
 }
