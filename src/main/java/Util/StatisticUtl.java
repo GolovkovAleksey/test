@@ -55,7 +55,6 @@ public class StatisticUtl {
                 avgExamScore.ifPresent(value -> statistics.setAvgExamScore(
                         (float) BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue()));
             });
-
             return statisticsList;
         }
     }

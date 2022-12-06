@@ -14,7 +14,6 @@ public class WriterExcel {
 
         private WriterExcel() {
         }
-
         public static void writeStatisticsExcel(List<Statistics> statisticsList,
                                               String filePath) throws IOException {
 
