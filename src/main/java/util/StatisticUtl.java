@@ -1,9 +1,9 @@
-package Util;
+package util;
 
-import Enums.StudyProfile;
-import Model.Statistics;
-import Model.Student;
-import Model.University;
+import enums.StudyProfile;
+import model.Statistics;
+import model.Student;
+import model.University;
 import org.apache.commons.lang3.StringUtils;
 
 import java.math.BigDecimal;
@@ -13,15 +13,17 @@ import java.util.List;
 import java.util.OptionalDouble;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class StatisticUtl {
-
+    private static final Logger logger = Logger.getLogger(StatisticUtl.class.getName());
         private void StatisticsUtl() {
         }
 
         public static List<Statistics> createStatistics(List<Student> students,
                                                         List<University> universities) {
-
+            logger.log(Level.INFO, "Statistics start");
             List<Statistics> statisticsList = new ArrayList<>();
 
             Set<StudyProfile> profiles = universities.stream()
@@ -55,6 +57,8 @@ public class StatisticUtl {
                 avgExamScore.ifPresent(value -> statistics.setAvgExamScore(
                         (float) BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue()));
             });
+
+            logger.log(Level.INFO, String.format("Statistics module finished with %s statistical objects", statisticsList.size()));
             return statisticsList;
         }
     }

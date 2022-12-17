@@ -1,8 +1,8 @@
-package Util;
+package util;
 
-import Comporator.*;
-import Enums.StudentComparatorType;
-import Enums.UniversityComparatorType;
+import comporator.*;
+import enums.StudentComparatorType;
+import enums.UniversityComparatorType;
 
 public class ComparatorUtil {
         private ComparatorUtil() {

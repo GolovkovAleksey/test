@@ -1,6 +1,6 @@
-package Model;//package model;
+package model;//package model;
 
-import Enums.StudyProfile;
+import enums.StudyProfile;
 import com.google.gson.annotations.SerializedName;
 
 public class University {

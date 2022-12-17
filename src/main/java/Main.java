@@ -1,46 +1,41 @@
-import Comporator.StudentComparator;
-import Comporator.UniversityComparator;
-import Enums.StudentComparatorType;
-import Enums.UniversityComparatorType;
-import Model.Statistics;
-import Model.Student;
-import Model.University;
-import Util.ComparatorUtil;
-import Util.JsonUtil;
-import Util.StatisticUtl;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import comporator.StudentComparator;
+import comporator.UniversityComparator;
+import enums.StudentComparatorType;
+import enums.UniversityComparatorType;
+import model.Statistics;
+import model.Student;
+import model.University;
+import util.ComparatorUtil;
+import util.StatisticUtl;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
+import static java.util.logging.Level.INFO;
 
 public class Main {
-    private static final Logger log = LogManager.getLogger(Main.class);
-
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) throws IOException {
+
+        try {
+            LogManager.getLogManager().readConfiguration(
+                    Main.class.getResourceAsStream("/logging.properties"));
+        } catch (IOException e) {
+            System.err.println("Could not setup logger configuration: " + e);
+        }
+        logger.log(INFO, "Started, Logger configured");
+
         ReadExcel ReadExcel = null;
+        
         List<University> universities =
                 ReadExcel.readUniversities();
         UniversityComparator universityComparator =
                 ComparatorUtil.getUniversityComparator(UniversityComparatorType.YEAR);
 
         universities.sort(universityComparator);
-        String universitiesJson = JsonUtil.universityListToJson(universities);
-
-        System.out.println(universitiesJson);
-
-        List<University> universitiesFromJson = JsonUtil.jsonToUniversityList(universitiesJson);
-        // проверка, воссзоздания коллекции
-        System.out.println(universities.size() == universitiesFromJson.size());
-        universities.forEach(university -> {
-            String universityJson = JsonUtil.universityToJson(university);
-            // проверка, json
-            System.out.println(universityJson);
-            University universityFromJson = JsonUtil.jsonToUniversity(universityJson);
-            // проверка, воссоздания элемента
-            System.out.println(universityFromJson);
-        });
 
         List<Student> students =
                 ReadExcel.readStudents();
@@ -48,22 +43,9 @@ public class Main {
                 ComparatorUtil.getStudentComparator(StudentComparatorType.AVG_EXAM_SCORE);
 
         students.sort(studentComparator);
-        String studentsJson = JsonUtil.studentListToJson(students);
-        // проверяем, что json создан успешно
-        System.out.println(studentsJson);
-        List<Student> studentsFromJson = JsonUtil.jsonToStudentList(studentsJson);
-        // проверка, воссзоздания коллекции
-        System.out.println(students.size() == studentsFromJson.size());
-        students.forEach(student -> {
-            String studentJson = JsonUtil.studentToJson(student);
-            // проверка, json
-            System.out.println(studentJson);
-            Student studentFromJson = JsonUtil.jsonToStudent(studentJson);
-            // проверка, воссоздания элемента
-            System.out.println(studentFromJson);
-        });
 
         List<Statistics> statisticsList = StatisticUtl.createStatistics(students, universities);
         WriterExcel.writeStatisticsExcel(statisticsList, "statistics.xlsx");
+        logger.log(INFO, "Application finished");
     }
 }

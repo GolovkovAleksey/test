@@ -1,7 +1,7 @@
-package Comporator;
+package comporator;
 
 
-import Model.University;
+import model.University;
 
 public class UniversityYearComparator implements UniversityComparator {
 

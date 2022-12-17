@@ -1,6 +1,6 @@
-package Model;
+package model;
 
-import Enums.StudyProfile;
+import enums.StudyProfile;
 
 public class Statistics {
     private StudyProfile profile;

@@ -1,5 +1,5 @@
-package Comporator;
-import Model.Student;
+package comporator;
+import model.Student;
 
 public class StudentCourseComparator implements StudentComparator {
 

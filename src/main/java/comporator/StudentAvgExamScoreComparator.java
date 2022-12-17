@@ -1,6 +1,6 @@
-package Comporator;
+package comporator;
 
-import Model.Student;
+import model.Student;
 
 public class StudentAvgExamScoreComparator implements StudentComparator {
 
