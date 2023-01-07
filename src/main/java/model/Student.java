@@ -1,6 +1,12 @@
 package model;
 
 import com.google.gson.annotations.SerializedName;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+
+@XmlAccessorType(XmlAccessType.FIELD)
 
 public class Student {
     public String getFullName() {
@@ -36,16 +42,21 @@ public class Student {
     }
 
     @SerializedName("studentFIO")
+    @XmlElement(name = "studentName")
     String fullName;
     @SerializedName("universityId")
+    @XmlElement(name = "universityId")
     String universityId;
 
     @SerializedName("course")
+    @XmlTransient
     int currentCourseNumber;
     @SerializedName("avgScope")
+    @XmlElement(name = "avgScore")
     float avgExamScore;
 
-    public String toString(){return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
-            this.fullName, this.universityId, this.currentCourseNumber, this.avgExamScore);
+    public String toString() {
+        return String.format("fullName = %s, universityId = %s, currentCourseNumber = %s, avgExamScore = %s",
+                this.fullName, this.universityId, this.currentCourseNumber, this.avgExamScore);
     }
 }

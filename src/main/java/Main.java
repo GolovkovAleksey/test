@@ -2,6 +2,10 @@ import comporator.StudentComparator;
 import comporator.UniversityComparator;
 import enums.StudentComparatorType;
 import enums.UniversityComparatorType;
+import io.WriterExcel;
+import io.WriterJson;
+import io.WriterXml;
+import model.Info;
 import model.Statistics;
 import model.Student;
 import model.University;
@@ -9,6 +13,7 @@ import util.ComparatorUtil;
 import util.StatisticUtl;
 
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
@@ -28,17 +33,15 @@ public class Main {
         }
         logger.log(INFO, "Started, Logger configured");
 
-        ReadExcel ReadExcel = null;
-        
         List<University> universities =
-                ReadExcel.readUniversities();
+                io.ReadExcel.readUniversities();
         UniversityComparator universityComparator =
                 ComparatorUtil.getUniversityComparator(UniversityComparatorType.YEAR);
 
         universities.sort(universityComparator);
 
         List<Student> students =
-                ReadExcel.readStudents();
+                io.ReadExcel.readStudents();
         StudentComparator studentComparator =
                 ComparatorUtil.getStudentComparator(StudentComparatorType.AVG_EXAM_SCORE);
 
@@ -46,6 +49,16 @@ public class Main {
 
         List<Statistics> statisticsList = StatisticUtl.createStatistics(students, universities);
         WriterExcel.writeStatisticsExcel(statisticsList, "statistics.xlsx");
+
+        Info Info = new Info()
+                .setStudentList(students)
+                .setUniversityList(universities)
+                .setStatisticsList(statisticsList)
+                .setProcessDate(new Date());
+
+        WriterXml.generateXmlReq(Info);
+        WriterJson.writeJsonReq(Info);
+
         logger.log(INFO, "Application finished");
     }
 }

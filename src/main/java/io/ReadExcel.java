@@ -1,4 +1,4 @@
-// Import statements
+package io;
 
 import enums.StudyProfile;
 import model.Student;

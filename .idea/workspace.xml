@@ -4,13 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f73b5e8-ea1f-4b3a-a5bc-2362201cfe25" name="Changes" comment="26.9. Проект">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Util/JsonUtil.java" afterDir="false" />
+    <list default="true" id="5f73b5e8-ea1f-4b3a-a5bc-2362201cfe25" name="Changes" comment="28.7 Практика">
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/WriterJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/WriterXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile.txt.0" beforeDir="false" afterPath="$PROJECT_DIR$/logfile.txt.0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WriterExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/WriterExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/StatisticUtl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/StatisticUtl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistics.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/statistics.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,26 +76,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "D:/module_gradle/test/test/src/test/java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "spring.configuration.checksum": "098f6bcd4621d373cade4e832627b4f6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/module_gradle/test/test/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;098f6bcd4621d373cade4e832627b4f6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\module_gradle\test\test\src\main\resources" />
       <recent name="D:\module_gradle\test\test\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="impout" />
+      <recent name="Util" />
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Unnamed">
@@ -93,13 +119,6 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Model.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Model.Student" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,6 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="model.Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Student" />
+      <module name="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="test" />
@@ -142,7 +168,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.Model.Student" />
+      <item itemvalue="Application.model.Student" />
       <item itemvalue="Application.Calc_app" />
       <item itemvalue="Application.ReadExcel" />
       <item itemvalue="Application.ReadExcel (1)" />
@@ -155,7 +181,7 @@
         <item itemvalue="Application.ReadExcel" />
         <item itemvalue="Application.Calc_app" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Model.Student" />
+        <item itemvalue="Application.model.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +197,13 @@
       <workItem from="1668152275269" duration="23911000" />
       <workItem from="1668601498135" duration="1395000" />
       <workItem from="1668603365892" duration="13002000" />
-      <workItem from="1669198992621" duration="8096000" />
+      <workItem from="1669198992621" duration="8440000" />
+      <workItem from="1670075013080" duration="4068000" />
+      <workItem from="1671242724999" duration="3912000" />
+      <workItem from="1671249855213" duration="13233000" />
+      <workItem from="1673096789178" duration="4991000" />
+      <workItem from="1673102023955" duration="3812000" />
+      <workItem from="1673105863335" duration="852000" />
     </task>
     <task id="LOCAL-00001" summary="25.9. Проект">
       <created>1668618219616</created>
@@ -187,7 +219,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669204036527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="26 Практическая неделя">
+      <created>1669451015167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669451015167</updated>
+    </task>
+    <task id="LOCAL-00004" summary="26 Практическая неделя">
+      <created>1670328740417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670328740417</updated>
+    </task>
+    <task id="LOCAL-00005" summary="27.8 Практическая неделя">
+      <created>1670329246795</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670329246795</updated>
+    </task>
+    <task id="LOCAL-00006" summary="28.7 Практика">
+      <created>1671246656016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671246656016</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +280,9 @@
     <MESSAGE value="24.7. Проект" />
     <MESSAGE value="25.9. Проект" />
     <MESSAGE value="26.9. Проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.9. Проект" />
+    <MESSAGE value="26 Практическая неделя" />
+    <MESSAGE value="27.8 Практическая неделя" />
+    <MESSAGE value="28.7 Практика" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.7 Практика" />
   </component>
 </project>

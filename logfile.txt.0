@@ -122,3 +122,2367 @@
   <message>Application finished</message>
 </record>
 </log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:00:28.741230500Z</date>
+  <millis>1671271228741</millis>
+  <nanos>230500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:28.803749900Z</date>
+  <millis>1671271228803</millis>
+  <nanos>749900</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.354181400Z</date>
+  <millis>1671271229354</millis>
+  <nanos>181400</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.354181400Z</date>
+  <millis>1671271229354</millis>
+  <nanos>181400</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.401060500Z</date>
+  <millis>1671271229401</millis>
+  <nanos>60500</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.401060500Z</date>
+  <millis>1671271229401</millis>
+  <nanos>60500</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.416684800Z</date>
+  <millis>1671271229416</millis>
+  <nanos>684800</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.416684800Z</date>
+  <millis>1671271229416</millis>
+  <nanos>684800</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.579263700Z</date>
+  <millis>1671271229579</millis>
+  <nanos>263700</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:00:29.579263700Z</date>
+  <millis>1671271229579</millis>
+  <nanos>263700</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:01:51.001838400Z</date>
+  <millis>1671271311001</millis>
+  <nanos>838400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.064341600Z</date>
+  <millis>1671271311064</millis>
+  <nanos>341600</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.615069600Z</date>
+  <millis>1671271311615</millis>
+  <nanos>69600</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.615069600Z</date>
+  <millis>1671271311615</millis>
+  <nanos>69600</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.653400100Z</date>
+  <millis>1671271311653</millis>
+  <nanos>400100</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.653400100Z</date>
+  <millis>1671271311653</millis>
+  <nanos>400100</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.669025100Z</date>
+  <millis>1671271311669</millis>
+  <nanos>25100</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.669025100Z</date>
+  <millis>1671271311669</millis>
+  <nanos>25100</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.818623300Z</date>
+  <millis>1671271311818</millis>
+  <nanos>623300</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:01:51.818623300Z</date>
+  <millis>1671271311818</millis>
+  <nanos>623300</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:07:13.927492500Z</date>
+  <millis>1671271633927</millis>
+  <nanos>492500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:13.974368800Z</date>
+  <millis>1671271633974</millis>
+  <nanos>368800</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.521252100Z</date>
+  <millis>1671271634521</millis>
+  <nanos>252100</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.521252100Z</date>
+  <millis>1671271634521</millis>
+  <nanos>252100</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.568136600Z</date>
+  <millis>1671271634568</millis>
+  <nanos>136600</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.568136600Z</date>
+  <millis>1671271634568</millis>
+  <nanos>136600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.583753100Z</date>
+  <millis>1671271634583</millis>
+  <nanos>753100</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.583753100Z</date>
+  <millis>1671271634583</millis>
+  <nanos>753100</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.737950500Z</date>
+  <millis>1671271634737</millis>
+  <nanos>950500</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:07:14.737950500Z</date>
+  <millis>1671271634737</millis>
+  <nanos>950500</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:10:25.537603700Z</date>
+  <millis>1671271825537</millis>
+  <nanos>603700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:25.600104400Z</date>
+  <millis>1671271825600</millis>
+  <nanos>104400</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.146988300Z</date>
+  <millis>1671271826146</millis>
+  <nanos>988300</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.162613400Z</date>
+  <millis>1671271826162</millis>
+  <nanos>613400</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.209489600Z</date>
+  <millis>1671271826209</millis>
+  <nanos>489600</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.209489600Z</date>
+  <millis>1671271826209</millis>
+  <nanos>489600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.209489600Z</date>
+  <millis>1671271826209</millis>
+  <nanos>489600</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.225114700Z</date>
+  <millis>1671271826225</millis>
+  <nanos>114700</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.392044100Z</date>
+  <millis>1671271826392</millis>
+  <nanos>44100</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:10:26.392044100Z</date>
+  <millis>1671271826392</millis>
+  <nanos>44100</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:11:38.030537400Z</date>
+  <millis>1671271898030</millis>
+  <nanos>537400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.093039200Z</date>
+  <millis>1671271898093</millis>
+  <nanos>39200</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.651475400Z</date>
+  <millis>1671271898651</millis>
+  <nanos>475400</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.651475400Z</date>
+  <millis>1671271898651</millis>
+  <nanos>475400</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.698353300Z</date>
+  <millis>1671271898698</millis>
+  <nanos>353300</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.698353300Z</date>
+  <millis>1671271898698</millis>
+  <nanos>353300</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.713976500Z</date>
+  <millis>1671271898713</millis>
+  <nanos>976500</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.713976500Z</date>
+  <millis>1671271898713</millis>
+  <nanos>976500</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.866829300Z</date>
+  <millis>1671271898866</millis>
+  <nanos>829300</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:11:38.866829300Z</date>
+  <millis>1671271898866</millis>
+  <nanos>829300</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:14:03.179134400Z</date>
+  <millis>1671272043179</millis>
+  <nanos>134400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:03.241642900Z</date>
+  <millis>1671272043241</millis>
+  <nanos>642900</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:03.804098900Z</date>
+  <millis>1671272043804</millis>
+  <nanos>98900</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:03.804098900Z</date>
+  <millis>1671272043804</millis>
+  <nanos>98900</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:03.850969800Z</date>
+  <millis>1671272043850</millis>
+  <nanos>969800</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:03.850969800Z</date>
+  <millis>1671272043850</millis>
+  <nanos>969800</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:03.866594100Z</date>
+  <millis>1671272043866</millis>
+  <nanos>594100</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:03.866594100Z</date>
+  <millis>1671272043866</millis>
+  <nanos>594100</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:04.040028400Z</date>
+  <millis>1671272044040</millis>
+  <nanos>28400</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:04.040028400Z</date>
+  <millis>1671272044040</millis>
+  <nanos>28400</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:14:56.178513800Z</date>
+  <millis>1671272096178</millis>
+  <nanos>513800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:56.241009600Z</date>
+  <millis>1671272096241</millis>
+  <nanos>9600</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:56.807505700Z</date>
+  <millis>1671272096807</millis>
+  <nanos>505700</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:56.823129900Z</date>
+  <millis>1671272096823</millis>
+  <nanos>129900</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:56.870002600Z</date>
+  <millis>1671272096870</millis>
+  <nanos>2600</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:56.870002600Z</date>
+  <millis>1671272096870</millis>
+  <nanos>2600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:56.870002600Z</date>
+  <millis>1671272096870</millis>
+  <nanos>2600</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:56.870002600Z</date>
+  <millis>1671272096870</millis>
+  <nanos>2600</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:57.037516300Z</date>
+  <millis>1671272097037</millis>
+  <nanos>516300</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:57.037516300Z</date>
+  <millis>1671272097037</millis>
+  <nanos>516300</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:14:57.037516300Z</date>
+  <millis>1671272097037</millis>
+  <nanos>516300</nanos>
+  <sequence>10</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>convertObjectToXml</method>
+  <thread>1</thread>
+  <message>shed1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:16:40.875092300Z</date>
+  <millis>1671272200875</millis>
+  <nanos>92300</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:40.939003400Z</date>
+  <millis>1671272200939</millis>
+  <nanos>3400</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.536063400Z</date>
+  <millis>1671272201536</millis>
+  <nanos>63400</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.536063400Z</date>
+  <millis>1671272201536</millis>
+  <nanos>63400</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.582933Z</date>
+  <millis>1671272201582</millis>
+  <nanos>933000</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.582933Z</date>
+  <millis>1671272201582</millis>
+  <nanos>933000</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.598561100Z</date>
+  <millis>1671272201598</millis>
+  <nanos>561100</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.598561100Z</date>
+  <millis>1671272201598</millis>
+  <nanos>561100</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.769149700Z</date>
+  <millis>1671272201769</millis>
+  <nanos>149700</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.769149700Z</date>
+  <millis>1671272201769</millis>
+  <nanos>149700</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:16:41.769149700Z</date>
+  <millis>1671272201769</millis>
+  <nanos>149700</nanos>
+  <sequence>10</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>convertObjectToXml</method>
+  <thread>1</thread>
+  <message>shed1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:28:54.855373400Z</date>
+  <millis>1671272934855</millis>
+  <nanos>373400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:54.917869400Z</date>
+  <millis>1671272934917</millis>
+  <nanos>869400</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.511605400Z</date>
+  <millis>1671272935511</millis>
+  <nanos>605400</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.511605400Z</date>
+  <millis>1671272935511</millis>
+  <nanos>605400</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.558479200Z</date>
+  <millis>1671272935558</millis>
+  <nanos>479200</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.558479200Z</date>
+  <millis>1671272935558</millis>
+  <nanos>479200</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.574081200Z</date>
+  <millis>1671272935574</millis>
+  <nanos>81200</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.574081200Z</date>
+  <millis>1671272935574</millis>
+  <nanos>81200</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.733994500Z</date>
+  <millis>1671272935733</millis>
+  <nanos>994500</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.733994500Z</date>
+  <millis>1671272935733</millis>
+  <nanos>994500</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:28:55.733994500Z</date>
+  <millis>1671272935733</millis>
+  <nanos>994500</nanos>
+  <sequence>10</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>convertObjectToXml</method>
+  <thread>1</thread>
+  <message>shed1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-17T10:36:12.677711400Z</date>
+  <millis>1671273372677</millis>
+  <nanos>711400</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:12.740207500Z</date>
+  <millis>1671273372740</millis>
+  <nanos>207500</nanos>
+  <sequence>1</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.306451300Z</date>
+  <millis>1671273373306</millis>
+  <nanos>451300</nanos>
+  <sequence>2</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.306451300Z</date>
+  <millis>1671273373306</millis>
+  <nanos>451300</nanos>
+  <sequence>3</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.357562600Z</date>
+  <millis>1671273373357</millis>
+  <nanos>562600</nanos>
+  <sequence>4</sequence>
+  <logger>ReadExcel</logger>
+  <level>INFO</level>
+  <class>ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.357562600Z</date>
+  <millis>1671273373357</millis>
+  <nanos>562600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.357562600Z</date>
+  <millis>1671273373357</millis>
+  <nanos>562600</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.373184800Z</date>
+  <millis>1671273373373</millis>
+  <nanos>184800</nanos>
+  <sequence>7</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.529419Z</date>
+  <millis>1671273373529</millis>
+  <nanos>419000</nanos>
+  <sequence>8</sequence>
+  <logger>WriterExcel</logger>
+  <level>INFO</level>
+  <class>WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.529419Z</date>
+  <millis>1671273373529</millis>
+  <nanos>419000</nanos>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+<record>
+  <date>2022-12-17T10:36:13.529419Z</date>
+  <millis>1671273373529</millis>
+  <nanos>419000</nanos>
+  <sequence>10</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>convertObjectToXml</method>
+  <thread>1</thread>
+  <message>shed1</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T13:59:46.713572700Z</date>
+  <millis>1673099986713</millis>
+  <nanos>572700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:46.776565600Z</date>
+  <millis>1673099986776</millis>
+  <nanos>565600</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.396620Z</date>
+  <millis>1673099987396</millis>
+  <nanos>620000</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.398603700Z</date>
+  <millis>1673099987398</millis>
+  <nanos>603700</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.442252300Z</date>
+  <millis>1673099987442</millis>
+  <nanos>252300</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.443739600Z</date>
+  <millis>1673099987443</millis>
+  <nanos>739600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.454156200Z</date>
+  <millis>1673099987454</millis>
+  <nanos>156200</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.455643500Z</date>
+  <millis>1673099987455</millis>
+  <nanos>643500</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.630235600Z</date>
+  <millis>1673099987630</millis>
+  <nanos>235600</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T13:59:47.633210500Z</date>
+  <millis>1673099987633</millis>
+  <nanos>210500</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T14:20:05.960171500Z</date>
+  <millis>1673101205960</millis>
+  <nanos>171500</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.032587Z</date>
+  <millis>1673101206032</millis>
+  <nanos>587000</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.679371700Z</date>
+  <millis>1673101206679</millis>
+  <nanos>371700</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.682346Z</date>
+  <millis>1673101206682</millis>
+  <nanos>346000</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.736411Z</date>
+  <millis>1673101206736</millis>
+  <nanos>411000</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.738395Z</date>
+  <millis>1673101206738</millis>
+  <nanos>395000</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.749305900Z</date>
+  <millis>1673101206749</millis>
+  <nanos>305900</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.750794900Z</date>
+  <millis>1673101206750</millis>
+  <nanos>794900</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.925857300Z</date>
+  <millis>1673101206925</millis>
+  <nanos>857300</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.927837400Z</date>
+  <millis>1673101206927</millis>
+  <nanos>837400</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterJson</logger>
+  <level>INFO</level>
+  <class>io.WriterJson</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:06.928829300Z</date>
+  <millis>1673101206928</millis>
+  <nanos>829300</nanos>
+  <sequence>10</sequence>
+  <logger>io.WriterJson</logger>
+  <level>INFO</level>
+  <class>io.WriterJson</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>Directory created successfully</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:07.013747200Z</date>
+  <millis>1673101207013</millis>
+  <nanos>747200</nanos>
+  <sequence>11</sequence>
+  <logger>io.WriterJson</logger>
+  <level>INFO</level>
+  <class>io.WriterJson</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T14:20:07.014243400Z</date>
+  <millis>1673101207014</millis>
+  <nanos>243400</nanos>
+  <sequence>12</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T14:30:06.154756800Z</date>
+  <millis>1673101806154</millis>
+  <nanos>756800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.213284400Z</date>
+  <millis>1673101806213</millis>
+  <nanos>284400</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.769218100Z</date>
+  <millis>1673101806769</millis>
+  <nanos>218100</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.771720800Z</date>
+  <millis>1673101806771</millis>
+  <nanos>720800</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.815842100Z</date>
+  <millis>1673101806815</millis>
+  <nanos>842100</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.817329900Z</date>
+  <millis>1673101806817</millis>
+  <nanos>329900</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.827250100Z</date>
+  <millis>1673101806827</millis>
+  <nanos>250100</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.829233700Z</date>
+  <millis>1673101806829</millis>
+  <nanos>233700</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.985875900Z</date>
+  <millis>1673101806985</millis>
+  <nanos>875900</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:30:06.988357100Z</date>
+  <millis>1673101806988</millis>
+  <nanos>357100</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T14:37:23.377637800Z</date>
+  <millis>1673102243377</millis>
+  <nanos>637800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:23.453528100Z</date>
+  <millis>1673102243453</millis>
+  <nanos>528100</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.051200700Z</date>
+  <millis>1673102244051</millis>
+  <nanos>200700</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.053184800Z</date>
+  <millis>1673102244053</millis>
+  <nanos>184800</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.100800400Z</date>
+  <millis>1673102244100</millis>
+  <nanos>800400</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.102784700Z</date>
+  <millis>1673102244102</millis>
+  <nanos>784700</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.112704800Z</date>
+  <millis>1673102244112</millis>
+  <nanos>704800</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.114192400Z</date>
+  <millis>1673102244114</millis>
+  <nanos>192400</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.290767Z</date>
+  <millis>1673102244290</millis>
+  <nanos>767000</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:37:24.292751300Z</date>
+  <millis>1673102244292</millis>
+  <nanos>751300</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T14:54:21.344004700Z</date>
+  <millis>1673103261344</millis>
+  <nanos>4700</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:21.399547Z</date>
+  <millis>1673103261399</millis>
+  <nanos>547000</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:21.953356800Z</date>
+  <millis>1673103261953</millis>
+  <nanos>356800</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:21.956320300Z</date>
+  <millis>1673103261956</millis>
+  <nanos>320300</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:22.005423300Z</date>
+  <millis>1673103262005</millis>
+  <nanos>423300</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:22.006913400Z</date>
+  <millis>1673103262006</millis>
+  <nanos>913400</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:22.015839200Z</date>
+  <millis>1673103262015</millis>
+  <nanos>839200</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:22.016831300Z</date>
+  <millis>1673103262016</millis>
+  <nanos>831300</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:22.184961500Z</date>
+  <millis>1673103262184</millis>
+  <nanos>961500</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T14:54:22.189074900Z</date>
+  <millis>1673103262189</millis>
+  <nanos>74900</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T15:11:04.583611100Z</date>
+  <millis>1673104264583</millis>
+  <nanos>611100</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:04.648090400Z</date>
+  <millis>1673104264648</millis>
+  <nanos>90400</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.214312100Z</date>
+  <millis>1673104265214</millis>
+  <nanos>312100</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.216295800Z</date>
+  <millis>1673104265216</millis>
+  <nanos>295800</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.264407100Z</date>
+  <millis>1673104265264</millis>
+  <nanos>407100</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.266907Z</date>
+  <millis>1673104265266</millis>
+  <nanos>907000</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.276309800Z</date>
+  <millis>1673104265276</millis>
+  <nanos>309800</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.277301700Z</date>
+  <millis>1673104265277</millis>
+  <nanos>301700</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.449908300Z</date>
+  <millis>1673104265449</millis>
+  <nanos>908300</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T15:11:05.452884600Z</date>
+  <millis>1673104265452</millis>
+  <nanos>884600</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T15:18:54.056536900Z</date>
+  <millis>1673104734056</millis>
+  <nanos>536900</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.119030100Z</date>
+  <millis>1673104734119</millis>
+  <nanos>30100</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.681775Z</date>
+  <millis>1673104734681</millis>
+  <nanos>775000</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.684255500Z</date>
+  <millis>1673104734684</millis>
+  <nanos>255500</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.729390900Z</date>
+  <millis>1673104734729</millis>
+  <nanos>390900</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.731375600Z</date>
+  <millis>1673104734731</millis>
+  <nanos>375600</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.741792200Z</date>
+  <millis>1673104734741</millis>
+  <nanos>792200</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.743278900Z</date>
+  <millis>1673104734743</millis>
+  <nanos>278900</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.908116900Z</date>
+  <millis>1673104734908</millis>
+  <nanos>116900</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T15:18:54.910597Z</date>
+  <millis>1673104734910</millis>
+  <nanos>597000</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML started</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-01-07T15:53:31.488251800Z</date>
+  <millis>1673106811488</millis>
+  <nanos>251800</nanos>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Started, Logger configured</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:31.548763700Z</date>
+  <millis>1673106811548</millis>
+  <nanos>763700</nanos>
+  <sequence>1</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.429260700Z</date>
+  <millis>1673106812429</millis>
+  <nanos>260700</nanos>
+  <sequence>2</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readUniversities</method>
+  <thread>1</thread>
+  <message>Excel reading finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.433661400Z</date>
+  <millis>1673106812433</millis>
+  <nanos>661400</nanos>
+  <sequence>3</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading started</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.476543Z</date>
+  <millis>1673106812476</millis>
+  <nanos>543000</nanos>
+  <sequence>4</sequence>
+  <logger>io.ReadExcel</logger>
+  <level>INFO</level>
+  <class>io.ReadExcel</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Excel reading finished</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.477535100Z</date>
+  <millis>1673106812477</millis>
+  <nanos>535100</nanos>
+  <sequence>5</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics start</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.485722400Z</date>
+  <millis>1673106812485</millis>
+  <nanos>722400</nanos>
+  <sequence>6</sequence>
+  <logger>util.StatisticUtl</logger>
+  <level>INFO</level>
+  <class>util.StatisticUtl</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished with 4 statistical objects</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.486687Z</date>
+  <millis>1673106812486</millis>
+  <nanos>687000</nanos>
+  <sequence>7</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing started</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.678243800Z</date>
+  <millis>1673106812678</millis>
+  <nanos>243800</nanos>
+  <sequence>8</sequence>
+  <logger>io.WriterExcel</logger>
+  <level>INFO</level>
+  <class>io.WriterExcel</class>
+  <method>writeStatisticsExcel</method>
+  <thread>1</thread>
+  <message>Excel writing finished</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.679580700Z</date>
+  <millis>1673106812679</millis>
+  <nanos>580700</nanos>
+  <sequence>9</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML started</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.811548200Z</date>
+  <millis>1673106812811</millis>
+  <nanos>548200</nanos>
+  <sequence>10</sequence>
+  <logger>io.WriterXml</logger>
+  <level>INFO</level>
+  <class>io.WriterXml</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.813035500Z</date>
+  <millis>1673106812813</millis>
+  <nanos>35500</nanos>
+  <sequence>11</sequence>
+  <logger>io.WriterJson</logger>
+  <level>INFO</level>
+  <class>io.WriterJson</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing started</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.870571800Z</date>
+  <millis>1673106812870</millis>
+  <nanos>571800</nanos>
+  <sequence>12</sequence>
+  <logger>io.WriterJson</logger>
+  <level>INFO</level>
+  <class>io.WriterJson</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing finished successfully</message>
+</record>
+<record>
+  <date>2023-01-07T15:53:32.871562500Z</date>
+  <millis>1673106812871</millis>
+  <nanos>562500</nanos>
+  <sequence>13</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>

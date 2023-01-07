@@ -18,10 +18,8 @@ import java.util.logging.Logger;
 
 public class StatisticUtl {
     private static final Logger logger = Logger.getLogger(StatisticUtl.class.getName());
-        private void StatisticsUtl() {
-        }
 
-        public static List<Statistics> createStatistics(List<Student> students,
+    public static List<Statistics> createStatistics(List<Student> students,
                                                         List<University> universities) {
             logger.log(Level.INFO, "Statistics start");
             List<Statistics> statisticsList = new ArrayList<>();
@@ -61,4 +59,4 @@ public class StatisticUtl {
             logger.log(Level.INFO, String.format("Statistics module finished with %s statistical objects", statisticsList.size()));
             return statisticsList;
         }
-    }
+}
